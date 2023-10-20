@@ -9,4 +9,5 @@ export default defineConfig({
   build: {
     format: "directory",
   },
+  base: "astro-test-pwa",
 });
