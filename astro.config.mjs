@@ -3,7 +3,7 @@ import AstroPWA from "@vite-pwa/astro";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [AstroPWA()],
+  integrations: [AstroPWA({ mode: "development" })],
   trailingSlash: "ignore",
   outDir: "docs",
   build: {
