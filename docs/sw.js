@@ -67,13 +67,10 @@ if (!self.define) {
     });
   };
 }
-define(['./workbox-fc5f5acf'], (function (workbox) { 'use strict';
+define(['./workbox-ab7aa862'], (function (workbox) { 'use strict';
 
-  self.addEventListener('message', event => {
-    if (event.data && event.data.type === 'SKIP_WAITING') {
-      self.skipWaiting();
-    }
-  });
+  self.skipWaiting();
+  workbox.clientsClaim();
 
   /**
    * The precacheAndRoute() method efficiently caches and responds to
@@ -81,23 +78,23 @@ define(['./workbox-fc5f5acf'], (function (workbox) { 'use strict';
    * See https://goo.gl/S9QRab
    */
   workbox.precacheAndRoute([{
-    "url": "_astro/hoisted.7e39f88f.js",
+    "url": "_astro/hoisted.bb8ef0cc.js",
     "revision": null
   }, {
     "url": "_astro/workbox-window.prod.es5.a7b12eab.js",
     "revision": null
   }, {
     "url": "/astro-test-pwa",
-    "revision": "7a7051c41af929bb5a6da9f5b4a315a2"
+    "revision": "e36245ad6bf7084391672eca6dffa252"
   }, {
     "url": "registerSW.js",
     "revision": "a959c95af65f85bb1a387911113b4d92"
   }, {
     "url": "test/hello",
-    "revision": "26cd22b5b4425044d224ef63a8843d77"
+    "revision": "5ca20a2ae5efa776688babf13c68b80c"
   }, {
     "url": "test",
-    "revision": "73dd772755de5d3af08d696aa16a5a0d"
+    "revision": "2e54de4d7c72e5470fbaba1f76bc209d"
   }, {
     "url": "manifest.webmanifest",
     "revision": "b00fc06e3aaa212306c809423f0990d1"
