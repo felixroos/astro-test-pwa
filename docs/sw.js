@@ -84,17 +84,23 @@ define(['./workbox-ab7aa862'], (function (workbox) { 'use strict';
     "url": "_astro/workbox-window.prod.es5.a7b12eab.js",
     "revision": null
   }, {
-    "url": "/astro-test-pwa",
+    "url": "/astro-test-pwa/",
     "revision": "5a7343f26e9acbf061e19d2736b04394"
   }, {
     "url": "registerSW.js",
     "revision": "a959c95af65f85bb1a387911113b4d92"
   }, {
-    "url": "test/hello",
+    "url": "test/hello/index.html",
     "revision": "703d6618dffcff72a12b092fa21cd299"
   }, {
-    "url": "test",
+    "url": "test/index.html",
     "revision": "5f93df1c27f36e0a8d4c82b65d97a47d"
+  }, {
+    "revision": "703d6618dffcff72a12b092fa21cd299",
+    "url": "test/hello"
+  }, {
+    "revision": "5f93df1c27f36e0a8d4c82b65d97a47d",
+    "url": "test"
   }, {
     "url": "manifest.webmanifest",
     "revision": "b00fc06e3aaa212306c809423f0990d1"
